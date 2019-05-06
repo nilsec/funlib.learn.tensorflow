@@ -50,7 +50,7 @@ setup(
                 ],
                 include_dirs=include_dirs,
                 library_dirs=library_dirs,
-                extra_link_args=['-std=c++11', "-lmlpack"],
+                extra_link_args=['-std=c++11', "-lmlpack", '-L/usr/lib/x86_64-linux-gnu/'],
                 extra_compile_args=['-O3', '-std=c++11'],
                 language='c++')
         ])
